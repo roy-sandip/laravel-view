@@ -2,7 +2,7 @@
 namespace RoySandip\LaravelView;
 
 use Illuminate\Support\ServiceProvider;
-use RoySandip\LaravelTcpdf\Commands\MakePDFCommand;
+use RoySandip\LaravelView\Commands\MakeViewCommand;
 
 class ViewServiceProvider extends ServiceProvider
 {
@@ -11,7 +11,7 @@ class ViewServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                MakePDFCommand::class,
+                MakeViewCommand::class,
             ]);
         }
 
