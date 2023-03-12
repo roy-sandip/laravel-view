@@ -1,0 +1,29 @@
+{
+    "name": "roy-sandip/laravel-view",
+    "description": "Laravel view command",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^7.0 || ^8.0 || ^9.0 || ^10.0"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "RoySandip\\LaravelView\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sandip Roy",
+            "email": "sandiproy876@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+            "laravel": {
+                "providers": [
+                    "RoySandip\\LaravelView\\ViewServiceProvider"
+                ]
+                
+            }
+        }
+}
