@@ -43,10 +43,6 @@ class MakeViewCommand extends Command
         $view = $this->argument('view');
         $views = $this->views($view, $resource);
         
-
-
-
-
         $template = $this->getTemplate($this->option('copy'));
         
         $viewPath = $this->getViewPath();
