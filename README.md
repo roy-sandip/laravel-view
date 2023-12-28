@@ -1,3 +1,8 @@
+# Installation
+```
+composer require roy-sandip/laravel-view
+```
+
 # Generate View Files
 
 Command:
